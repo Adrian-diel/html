@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça a escolha</title>
+    <style>
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+        }
+        iframe#tell {
+            width: 97vh;
+            height: 500px;
+            display: block;
+            margin: auto;
+            border: 1px solid black;
+        }
+
+        #container {
+            display: flex;
+            gap: 250px;
+            padding: 20px;
+        }
+        #menu{
+           width: 51vh;
+        }
+        #menu > ul {
+            list-style: none;
+            padding: 0;
+        }
+        #menu a {
+            text-decoration: none;
+        }
+        #menu a:hover {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        #menu li {
+            margin: 10px 0;
+            background-color: #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        li {
+             font-size: 2em;
+             line-height: 40px;
+        }
+
+        #back {
+            font-size: 1.8em;
+            text-align: center;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Você escolhe!</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptas eveniet quo eum voluptatum dicta exercitationem sequi blanditiis! Molestias ad aspernatur quidem tempore necessitatibus, a quibusdam dicta obcaecati quisquam animi.</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit cupiditate, adipisci non odit doloremque quo ad officia? Modi iure saepe obcaecati dolor consectetur velit blanditiis expedita ullam perspiciatis? Perspiciatis, vel.</p>
+
+    <div id="container">
+        <div id="menu">
+            <ul>
+                <a href="pag-extras.html/tabelas02.html"  target="frame">
+                    <li>Primeira opção</li>
+                </a>
+                <a href="pag-extras.html/index.html.html" target="frame">
+                    <li>Segunda opção</li>
+                </a>
+                <a href="pag-extras.html/atividade.html" target="frame">
+                    <li>Terceira opção</li>
+                </a>
+                <a href="pag-extras.html/blank.html" target="frame">
+                    <li>Clique aqui para voltar!</li>
+                </a>
+             </ul>
+        </div>
+        <iframe src="pag-extras.html/blank.html" frameborder="1" id="tell" name="frame" sandbox="sandbox" ></iframe>
+
+    </div>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat maiores repellendus natus itaque ea nulla culpa, aspernatur, repudiandae a, officia quam? Iste quos sint autem similique fugiat, dolor harum reprehenderit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores laudantium quas pariatur libero? Aut quos dolores quasi aliquam magnam id quibusdam amet. Id in quidem dolor aspernatur quod aliquam asperiores!</p>
+</body>
+</html>
