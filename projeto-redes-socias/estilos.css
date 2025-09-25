@@ -17,21 +17,40 @@ body {
     background-position: top, center;
     background-size: cover;
 }
-main{
+main{ 
+    height: 100vh;;
     position: relative;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 section#telefone {
+    position: absolute;
     height: 627px;
     width: 311px;
     background-image: url("imagens/frame-iphone.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
+section#sociais{
+    text-align: right;
+}
+section#sociais img {
+    margin: 10px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.801);
+    box-sizing: border-box;
+    background-size: cover;
+}
+section#sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.671);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+    transition: transform 0.4s, border 0.8s;
+}
 iframe#tela {
     position: relative;
     width: 267px;
